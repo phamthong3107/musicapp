@@ -8,8 +8,6 @@ export default function Content() {
         setNsong(Nsong)
         handleSetsong(Nsong)
     }
-    // const imgSongNow = document.getElementById("imgSongNow").src
-    // console.log(imgSongNow)
     return (
     <div className="content">
             <div className="search-bar">
@@ -19,7 +17,7 @@ export default function Content() {
             <h2 className="text-[24px] mt-5 mb-5 font-bold">Top Song 2022</h2>
             <div className="top-music flex">
                 <div className="music-playing-img rounded-full animate-[spin_10s_infinite_linear]">
-                    <img src="/klipartz.com.png" alt="" className='rounded-full'/>
+                    <img src="klipartz.com.png" alt="" className='rounded-full'/>
                 </div>
                 <div className="music-list-top flex-col ml-5 w-[420px]">
                     <div className="top-song flex justify-between p-2">

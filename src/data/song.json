@@ -1,31 +1,31 @@
 [{
         "id": "1",
         "nameAuthor": "Sơn Tùng",
-        "avt": "../img/sontung/ava.jpg",
+        "avt": "img/sontung/ava.jpg",
         "update": "4 minutes ago",
         "songs": [{
                 "id": "1",
                 "nameSong": "Anh sai rồi",
-                "nameFile": "/musics/sontung/asairoi.mp3",
-                "img": "/img/sontung/asairoi.jpg"
+                "nameFile": "musics/sontung/asairoi.mp3",
+                "img": "img/sontung/asairoi.jpg"
             },
             {
                 "id": "2",
                 "nameSong": "Em của ngày hôm qua",
-                "nameFile": "/musics/sontung/emcuangayhomqua.mp3",
-                "img": "/img/sontung/emcuangayhomqua.webp"
+                "nameFile": "musics/sontung/emcuangayhomqua.mp3",
+                "img": "img/sontung/emcuangayhomqua.webp"
             },
             {
                 "id": "3",
                 "nameSong": "Hãy trao cho anh",
-                "nameFile": "/musics/sontung/haytraochoanh.mp3",
-                "img": "/img/sontung/haytraochoanh.jpg"
+                "nameFile": "musics/sontung/haytraochoanh.mp3",
+                "img": "img/sontung/haytraochoanh.jpg"
             },
             {
                 "id": "4",
                 "nameSong": "Khuôn mặt đáng thương",
-                "nameFile": "/musics/sontung/khuonmatdangthuong.mp3",
-                "img": "/img/sontung/khuonmatdangthuong.webp"
+                "nameFile": "musics/sontung/khuonmatdangthuong.mp3",
+                "img": "img/sontung/khuonmatdangthuong.webp"
             }
         ]
     },
@@ -37,26 +37,26 @@
         "songs": [{
                 "id": "1",
                 "nameSong": "Nàng thơ",
-                "nameFile": "/musics/amee/nangtho.mp3",
-                "img": "/img/amee/nangtho.webp"
+                "nameFile": "musics/amee/nangtho.mp3",
+                "img": "img/amee/nangtho.webp"
             },
             {
                 "id": "2",
                 "nameSong": "Nói hoặc không nói",
-                "nameFile": "/musics/amee/noihoackhongnoi.mp3",
-                "img": "/img/amee/noihoackhongnoi.jpg"
+                "nameFile": "musics/amee/noihoackhongnoi.mp3",
+                "img": "img/amee/noihoackhongnoi.jpg"
             },
             {
                 "id": "3",
                 "nameSong": "Shay nắng",
-                "nameFile": "/musics/amee/shaynang.mp3",
-                "img": "/img/amee/shaynang.jpg"
+                "nameFile": "musics/amee/shaynang.mp3",
+                "img": "img/amee/shaynang.jpg"
             },
             {
                 "id": "4",
                 "nameSong": "Thay mọi cô gái yêu anh",
-                "nameFile": "/musics/amee/thaymoicogaiiuanh.mp3",
-                "img": "/img/amee/thaymoicogaiiuanh.jpg"
+                "nameFile": "musics/amee/thaymoicogaiiuanh.mp3",
+                "img": "img/amee/thaymoicogaiiuanh.jpg"
             }
         ]
     },
@@ -68,26 +68,26 @@
         "songs": [{
                 "id": "1",
                 "nameSong": "Câu hẹn câu thề",
-                "nameFile": "/musics/dinhdung/cauhencauthe.mp3",
-                "img": "/img/dinhdung/cauhencauthe.jpg"
+                "nameFile": "musics/dinhdung/cauhencauthe.mp3",
+                "img": "img/dinhdung/cauhencauthe.jpg"
             },
             {
                 "id": "2",
                 "nameSong": "Đế vương",
-                "nameFile": "/musics/dinhdung/devuong.mp3",
-                "img": "/img/dinhdung/devuong.jpg"
+                "nameFile": "musics/dinhdung/devuong.mp3",
+                "img": "img/dinhdung/devuong.jpg"
             },
             {
                 "id": "3",
                 "nameSong": "Đừng hẹn kiếp sau",
-                "nameFile": "/musics/dinhdung/dunghenkiepsau.mp3",
-                "img": "/img/dinhdung/dunghenkiepsau.jfif"
+                "nameFile": "musics/dinhdung/dunghenkiepsau.mp3",
+                "img": "img/dinhdung/dunghenkiepsau.jfif"
             },
             {
                 "id": "4",
                 "nameSong": "Sao ta ngược lối",
                 "nameFile": "/musics/dinhdung/saotanguocloi.mp3",
-                "img": "/img/dinhdung/saotanguocloi.jpg"
+                "img": "img/dinhdung/saotanguocloi.jpg"
             }
         ]
     },
@@ -99,26 +99,26 @@
         "songs": [{
                 "id": "1",
                 "nameSong": "Cứ yêu đi",
-                "nameFile": "/musics/ducphuc/cuyeudi.mp3",
-                "img": "/img/ducphuc/traidatdepnhatkhicoem.jfif"
+                "nameFile": "musics/ducphuc/cuyeudi.mp3",
+                "img": "img/ducphuc/traidatdepnhatkhicoem.jfif"
             },
             {
                 "id": "2",
                 "nameSong": "Gửi ngàn lời yêu",
-                "nameFile": "/musics/ducphuc/guinganloiyeu.mp3",
-                "img": "/img/ducphuc/guinganloiyeu.jpg"
+                "nameFile": "musics/ducphuc/guinganloiyeu.mp3",
+                "img": "img/ducphuc/guinganloiyeu.jpg"
             },
             {
                 "id": "3",
                 "nameSong": "Năm ấy",
-                "nameFile": "/musics/ducphuc/namay.mp3",
-                "img": "/img/ducphuc/namay.jpg"
+                "nameFile": "musics/ducphuc/namay.mp3",
+                "img": "img/ducphuc/namay.jpg"
             },
             {
                 "id": "4",
                 "nameSong": "Ngày đầu tiên",
-                "nameFile": "/musics/ducphuc/ngaydautien.mp3",
-                "img": "/img/ducphuc/ngaydautien.jpg"
+                "nameFile": "musics/ducphuc/ngaydautien.mp3",
+                "img": "img/ducphuc/ngaydautien.jpg"
             }
         ]
     },
@@ -130,26 +130,26 @@
         "songs": [{
                 "id": "1",
                 "nameSong": "Em ngủ chưa",
-                "nameFile": "/musics/ttbinh/emnguchua.mp3",
-                "img": "/img/ttbinh/emnguchua.jpg"
+                "nameFile": "musics/ttbinh/emnguchua.mp3",
+                "img": "img/ttbinh/emnguchua.jpg"
             },
             {
                 "id": "2",
                 "nameSong": "Khác biệt to lớn",
-                "nameFile": "/musics/ttbinh/khacbiettolon.mp3",
-                "img": "/img/ttbinh/khacbiettolon.jpg"
+                "nameFile": "musics/ttbinh/khacbiettolon.mp3",
+                "img": "img/ttbinh/khacbiettolon.jpg"
             },
             {
                 "id": "3",
                 "nameSong": "Người ấy",
-                "nameFile": "/musics/ttbinh/nguoiay.mp3",
-                "img": "/img/ttbinh/nguoiay.jpg"
+                "nameFile": "musics/ttbinh/nguoiay.mp3",
+                "img": "img/ttbinh/nguoiay.jpg"
             },
             {
                 "id": "4",
                 "nameSong": "Vỡ tan",
-                "nameFile": "/musics/ttbinh/votan.mp3",
-                "img": "/img/ttbinh/votan.jpg"
+                "nameFile": "musics/ttbinh/votan.mp3",
+                "img": "img/ttbinh/votan.jpg"
             }
         ]
     }
