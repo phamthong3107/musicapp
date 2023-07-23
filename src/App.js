@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Content from './components/Content';
+import Leftbar from './components/Leftbar';
+import Playerbar from './components/Playerbar';
+import Rightbar from './components/Rightbar';
+import { Songs } from './Context';
+import DataSongs from './data/song.json';
+import { useState } from 'react';
 function App() {
+  const [Artist, setArtist] = useState(DataSongs[0])
+  const handlesetArtist = (idArtist) => {
+    const artist = DataSongs.find(artist => artist.id === idArtist)
+    setArtist(artist)
+  }
+  const [song, setsong] = useState(0)
+  const handleSetsong = (song) => {
+    setsong(song)
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Songs.Provider value={{ DataSongs, Artist, handlesetArtist, song, handleSetsong }}>
+        <div className="main p-6 flex justify-center">
+          <Leftbar/>
+          <Content/>
+          <Rightbar/>
+      </div>
+      <Playerbar/>
+      </Songs.Provider>
+      
     </div>
   );
 }
