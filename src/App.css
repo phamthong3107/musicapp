@@ -153,6 +153,12 @@ body {
     background: linear-gradient(90deg, rgba(225, 237, 250, 1) 0%, rgba(247, 238, 242, 1) 100%);
 }
 
+.player-bar {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
 @media only screen and (max-width: 900px) {
     body {
         overflow-y: scroll;
@@ -188,11 +194,6 @@ body {
     }
     .precent-player_name {
         font-size: 16px;
-    }
-    .player-bar {
-        position: fixed;
-        bottom: 0px;
-        width: 100%;
     }
     .right-bar {
         padding-bottom: 60px;
