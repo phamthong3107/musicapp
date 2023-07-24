@@ -104,7 +104,7 @@ export default function Content() {
                 <h2 className="text-[20px] mt-5 mb-5 font-bold">Top song of singer</h2>
                 <div className="recent-player w-full flex h-[220px]">
                     {Artist.songs.map((songs) => (
-                        <div className="precent-player_item" onClick={() => handlePlaySong(songs.nameFile)}>
+                        <div className="precent-player_item" onClick={() => handlePlaySong(songs.id)}>
                         <div className="precent-player_img">
                             <img src={songs.img} alt="" id='imgSongNow'/>
                         </div>

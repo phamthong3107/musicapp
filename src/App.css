@@ -159,6 +159,19 @@ body {
     width: 100%;
 }
 
+@media only screen and (max-width: 1500px) and (min-width: 900px) {
+    body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .content {
+        margin-bottom: 100px;
+    }
+    body::-webkit-scrollbar {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     body {
         overflow-y: scroll;

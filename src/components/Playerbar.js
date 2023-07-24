@@ -4,16 +4,20 @@ import 'react-h5-audio-player/lib/styles.css';
 import { Songs } from '../Context';
 
 export default function Playerbar() {
-  const {song, handleSetsong} = useContext(Songs)
-
+  const {Artist, song, handleSetsong} = useContext(Songs)
   const handleClickNext = () => {
+    handleSetsong(song + 1)
   }
   const handleClickPre = () => {
+    handleSetsong(song - 1)
   }
   return (
     <div className='player-bar'>
         <AudioPlayer 
-        src={song} 
+        src={Artist.songs[song].nameFile} 
+        showSkipControls={true}
+        onClickNext={handleClickNext}
+        onClickPrevious={handleClickPre}
        />
         
     </div>

@@ -14,6 +14,12 @@ function App() {
   }
   const [song, setsong] = useState(0)
   const handleSetsong = (song) => {
+    if(song > 3){
+      song = 0
+    }
+    if(song < 0){
+      song = 3
+    }
     setsong(song)
   }
   return (
