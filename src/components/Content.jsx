@@ -30,7 +30,7 @@ export default function Content() {
             <div className="flex justify-center">
                 <div className="top-music mr-8">
                 <h2 className="text-[24px] mt-5 mb-5 font-bold">Top Song 2022</h2>
-                    <div className="music-playing-img w-[250px] animate-[spin_20s_infinite_linear]">
+                    <div className="music-playing-img w-[250px] rounded-full animate-[spin_20s_infinite_linear] shadow-3xl">
                         <img src={img} className='w-[250px] h-[250px] object-cover rounded-full' alt=""/>
                     </div>
                 </div>
