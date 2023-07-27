@@ -38,7 +38,7 @@ export default function Content() {
                     <h2 className='text-[24px] mt-5 mb-5 font-bold'>Song History</h2>
                     <div className="music-list-top flex-col">
                         {ListSongH.map((song) => (
-                            <div className="top-song flex justify-between p-2" onClick={() => handlePlaySong(song.id)}>
+                            <div className="top-song flex justify-between p-2">
                                 <div className="top-song-left flex">
                                     <div className="top-song-rank mr-3">{ListSongH.indexOf(song)+1}</div>
                                     <div className="top-song-tile justify-center align-middle">
