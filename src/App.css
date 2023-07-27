@@ -56,7 +56,7 @@ body {
 
 .music-list-top {
     overflow-y: scroll;
-    height: 250px;
+    height: 300px;
 }
 
 .music-list-top::-webkit-scrollbar {
@@ -65,6 +65,10 @@ body {
 
 .top-song {
     border-radius: 20px;
+}
+
+.top-song-name {
+    margin-top: 10px;
 }
 
 .top-song:hover {
@@ -81,14 +85,7 @@ body {
 
 .top-song-love {
     margin: 10px 15px;
-}
-
-.top-song-name {
-    font-weight: 700;
-}
-
-.top-song-artist {
-    font-size: 14px;
+    color: #895dd9;
 }
 
 .top-song-time {
@@ -210,5 +207,8 @@ body {
     }
     .right-bar {
         padding-bottom: 60px;
+    }
+    .song-history {
+        display: none;
     }
 }
