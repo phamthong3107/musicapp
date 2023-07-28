@@ -20,7 +20,7 @@ export default function Playerbar() {
           <h2 className='font-bold'>{Artist.songs[song].nameSong}</h2>
           <span className='text-[14px]'>{Artist.nameAuthor}</span>
         </div>
-        <img src="/img/wave.gif" className='w-[30px] h-[30px] mt-[30px] mr-3' />
+        <img src="./img/wave.gif" className='w-[30px] h-[30px] mt-[30px] mr-3' />
       </div>
       <AudioPlayer 
         src={Artist.songs[song].nameFile} 
@@ -29,7 +29,7 @@ export default function Playerbar() {
         onClickPrevious={handleClickPre}
       />
       <div className="icon-list bg-white">
-        <img src="/img/list.gif" className='w-[50px] h-[50px] m-5' />
+        <img src="./img/list.gif" className='w-[50px] h-[50px] m-5' />
       </div>
     </div>
     
