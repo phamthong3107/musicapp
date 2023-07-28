@@ -240,4 +240,7 @@ body {
     .song_now {
         display: none;
     }
+    .icon-list {
+        display: none;
+    }
 }
