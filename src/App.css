@@ -118,7 +118,6 @@ body {
 }
 
 .list-artist_item {
-    margin: 10px 0;
     padding: 10px 12px;
     border-radius: 15px;
 }
@@ -150,10 +149,31 @@ body {
     background: linear-gradient(90deg, rgba(225, 237, 250, 1) 0%, rgba(247, 238, 242, 1) 100%);
 }
 
+.rhap_progress-bar {
+    height: 2px!important;
+}
+
+.rhap_progress-indicator {
+    width: 10px!important;
+    height: 10px!important;
+    top: -4px!important;
+}
+
 .player-bar {
     position: fixed;
     bottom: 0px;
     width: 100%;
+    background-color: #fff;
+}
+
+.song_now img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.song_now-content {
+    width: 150px;
+    margin-top: 15px;
 }
 
 @media only screen and (max-width: 1500px) and (min-width: 900px) {
@@ -209,6 +229,15 @@ body {
         padding-bottom: 60px;
     }
     .song-history {
+        display: none;
+    }
+    .list-another {
+        display: none;
+    }
+    .right-bar {
+        margin-top: 30px;
+    }
+    .song_now {
         display: none;
     }
 }
